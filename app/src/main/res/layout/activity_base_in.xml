@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".BaseIn">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/teal_200"
+        android:text="Profil "/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="239dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="238dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="80dp"
+                android:layout_height="90dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginTop="10dp"
+                android:text="Cless Matthaus"
+                android:textColor="@color/teal_200"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_marginTop="5dp"
+                android:layout_width="251dp"
+                android:layout_height="25dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:drawableLeft="@drawable/phone"
+                android:drawablePadding="5dp"
+                android:text=" 03 03 03 02 01"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/emailbase"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/white"
+                android:layout_width="251dp"
+                android:layout_height="24dp"
+                android:drawableLeft="@drawable/email1"
+                android:drawablePadding="65dp"
+                android:text="stunna@live.fr"
+
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="357dp"
+        android:paddingLeft="40dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., "
+    android:textSize="14dp"
+   android:paddingTop="3dp"
+    android:paddingLeft="5dp"
+    android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:drawableBottom="@drawable/exit"
+        android:text="Quiter" />
+</LinearLayout>

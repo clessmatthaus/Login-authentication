@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178758203699",
+    "project_id": "login-form-a945e",
+    "storage_bucket": "login-form-a945e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178758203699:android:557fdcc509517c59662646",
+        "android_client_info": {
+          "package_name": "fr.clesspavy.login_form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178758203699-0dm8hrcp01t2gn61fvqligjbfi5skrk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeRbD_T05Z_gbAVrtS0egxCcydMIB5C10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178758203699-0dm8hrcp01t2gn61fvqligjbfi5skrk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
